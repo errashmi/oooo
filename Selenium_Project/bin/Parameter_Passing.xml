@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Pass_Parameter_From_XML">
+	<test name="test1">
+		<classes>
+			<parameter name="uname" value="admin"></parameter>
+			<parameter name="pwd" value="admin"></parameter>
+			<class name="com.rashmi.TestNG.Pass_Parameter_From_XML">
+				<methods>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+			<parameter name="uname" value="sunny"></parameter>
+			<parameter name="pwd" value="sunny"></parameter>
+			<class name="com.rashmi.TestNG.Pass_Parameter_From_XML">
+				<methods>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test3">
+		<classes>
+			<parameter name="uname" value="mahesh"></parameter>
+			<parameter name="pwd" value="mahesh"></parameter>
+			<class name="com.rashmi.TestNG.Pass_Parameter_From_XML">
+				<methods>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test4">
+		<classes>
+			<parameter name="uname" value="bunny"></parameter>
+			<parameter name="pwd" value="bunny"></parameter>
+			<class name="com.rashmi.TestNG.Pass_Parameter_From_XML">
+				<methods>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

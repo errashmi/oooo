@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="multiBrowsertesting" parallel="tests">
+	<test name="chromeTesting">
+		<parameters>
+			<parameter name="bwsr" value="chrome"></parameter>
+		</parameters>
+		<classes>
+			<class name="com.rex.U.U7"></class>
+		</classes>
+	</test>
+	<test name="FieFoxTesting">
+		<parameters>
+			<parameter name="bwsr" value="firefox"></parameter>
+		</parameters>
+		<classes>
+			<class name="com.rex.U.U7"></class>
+		</classes>
+	</test>
+</suite>

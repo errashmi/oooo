@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PrimusBank_admin]">
+  <listeners>
+    <listener class-name="listeners.Listener"/>
+    <listener class-name="listeners.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="adminTC.TC001">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- adminTC.TC001 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [PrimusBank_admin] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch execution demo]">
+  <test thread-count="5" name="HMS(failed)">
+    <classes>
+      <class name="com.rashmi.TestNG.Deafult_Currency">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="checkDefaultCurrency"/>
+        </methods>
+      </class> <!-- com.rashmi.TestNG.Deafult_Currency -->
+      <class name="com.rashmi.TestNG.HMS_Login">
+        <methods>
+          <include name="verify_login"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.rashmi.TestNG.HMS_Login -->
+    </classes>
+  </test> <!-- HMS(failed) -->
+</suite> <!-- Failed suite [Batch execution demo] -->

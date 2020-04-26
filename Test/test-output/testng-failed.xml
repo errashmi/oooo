@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" parallel="tests">
+  <test thread-count="5" name="firefox_test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="data.D6">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- data.D6 -->
+    </classes>
+  </test> <!-- firefox_test(failed) -->
+</suite> <!-- Failed suite [suite] -->

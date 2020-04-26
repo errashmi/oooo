@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite">
+	<test name="HMS_LOGIN">
+		<parameter name="id" value="admin"></parameter>
+		<parameter name="pw" value="admin"></parameter>
+		<classes>
+			<class name="data.D1"></class>
+		</classes>
+	</test>
+</suite>

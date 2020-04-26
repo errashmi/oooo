@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HINAI Suite]">
+  <test thread-count="5" name="HINAI_Login(failed)">
+    <classes>
+      <class name="com.icthealth.hinai.HINAI_Logout">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.icthealth.hinai.HINAI_Logout -->
+    </classes>
+  </test> <!-- HINAI_Login(failed) -->
+</suite> <!-- Failed suite [HINAI Suite] -->

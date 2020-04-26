@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HINAI Suite">
+	<test name="HINAI_Login">
+		<classes>
+			<class name="com.icthealth.hinai.HINAI_Login">
+				<methods>
+					<include name="openURL"></include>
+					<include name="login"></include>
+				</methods>
+			</class>
+			<class name="com.icthealth.hinai.HINAI_Logout">
+				<methods>
+					<include name="logout"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

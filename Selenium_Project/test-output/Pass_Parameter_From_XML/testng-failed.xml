@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pass_Parameter_From_XML]">
+  <test thread-count="5" name="test2(failed)">
+    <parameter name="uname" value="sunny"/>
+    <parameter name="pwd" value="sunny"/>
+    <classes>
+      <class name="com.rashmi.TestNG.Pass_Parameter_From_XML">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rashmi.TestNG.Pass_Parameter_From_XML -->
+    </classes>
+  </test> <!-- test2(failed) -->
+  <test thread-count="5" name="test4(failed)">
+    <parameter name="uname" value="bunny"/>
+    <parameter name="pwd" value="bunny"/>
+    <classes>
+      <class name="com.rashmi.TestNG.Pass_Parameter_From_XML">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rashmi.TestNG.Pass_Parameter_From_XML -->
+    </classes>
+  </test> <!-- test4(failed) -->
+</suite> <!-- Failed suite [Pass_Parameter_From_XML] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HINAI AUTO">
+<test name="LOGIN">
+<classes >
+<class name="com.rashmi.practice.NewTest">
+<parameter name="uid" value="khl2529"></parameter>
+<parameter name="pass" value="1234"></parameter>
+<include name="parameterPassingUsingXML"></include>
+</class>
+</classes>
+</test>
+</suite>

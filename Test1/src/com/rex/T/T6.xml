@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite-1">
+	<test name="test-1">
+		<groups name="g1">
+			<run>
+				<include name="g1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.rex.T.T6">
+			</class>
+		</classes>
+	</test>
+</suite>

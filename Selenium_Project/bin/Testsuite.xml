@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HMS Suite">
+<test name="HMS Login TEST">
+<classes>
+<class name="com.rashmi.TestNG.HMS_Login_Using_XML"></class>
+<methods>
+<include name="verify_login"></include>
+<include name="fill_RegdForm"></include>
+<include name="verify_logout"></include>
+</methods>
+</classes>
+</test>
+</suite>

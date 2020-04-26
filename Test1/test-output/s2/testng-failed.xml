@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [s2]" parallel="tests">
+  <test thread-count="5" name="t2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.rex.U.U4">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="FBLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rex.U.U4 -->
+    </classes>
+  </test> <!-- t2(failed) -->
+  <test thread-count="5" name="t3(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.rex.U.U4">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="FBLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rex.U.U4 -->
+    </classes>
+  </test> <!-- t3(failed) -->
+</suite> <!-- Failed suite [s2] -->

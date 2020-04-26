@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Listener demo">
+<test name="listener">
+<listeners>
+<listener class-name="testNG.Lsnr"></listener>
+</listeners>
+<classes>
+<class name="testNG.T9"></class>
+</classes>
+</test>
+</suite>

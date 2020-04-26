@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="s2" parallel="tests">
+	<test name="t2">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.rex.U.U4"></class>
+		</classes>
+	</test>
+	<test name="t3">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.rex.U.U4"></class>
+		</classes>
+	</test>
+</suite>

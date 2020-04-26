@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite_Name" parallel="test">
+<listeners>
+<listener class-name="com.rex.U.Lsnr"></listener>
+</listeners>
+	<test name="test_Name1">
+		<classes>
+			<class name="com.rex.U.U2"></class>
+			
+		</classes>
+	</test>
+	
+</suite>

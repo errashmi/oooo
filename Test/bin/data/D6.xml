@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite" parallel="tests">
+<test name="chrome_test">
+<classes>
+<parameter name="browser" value="chrome"></parameter>
+<class name="data.D6"></class>
+</classes>
+</test>
+<test name="firefox_test">
+<classes>
+<parameter name="browser" value="firefox"></parameter>
+<class name="data.D6"></class>
+</classes>
+</test>
+</suite>

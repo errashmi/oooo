@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite_name">
+	<test name="test_name1">
+		<listeners>
+			<listener class-name="com.rex.E.Lsnr"></listener>
+		</listeners>
+		<classes>
+			<class name="com.rex.E.E2"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sn">
+<test name="paramdemo">
+<parameter name="id" value="rashmi"></parameter>
+<parameter name="pw" value="rashmi"></parameter>
+<classes>
+<class name="com.rex.U.U3">
+</class>
+</classes>
+</test>
+</suite>

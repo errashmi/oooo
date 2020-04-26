@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HINAI AUTO]">
+  <test thread-count="5" name="LOGIN(failed)">
+    <classes>
+      <class name="com.rashmi.practice.NewTest">
+        <parameter name="uid" value="khl2530"/>
+        <parameter name="pass" value="1234"/>
+        <methods>
+          <include name="beforeTest"/>
+          <include name="parameterPassingUsingXML" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rashmi.practice.NewTest -->
+    </classes>
+  </test> <!-- LOGIN(failed) -->
+</suite> <!-- Failed suite [HINAI AUTO] -->

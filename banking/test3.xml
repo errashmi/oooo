@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PrimusBank_admin">
+	<test name="test1">
+	<listeners>
+	<listener class-name="listeners.Listener"></listener>
+	<listener class-name="listeners.RetryListener"></listener>
+	</listeners>
+		<classes>
+			<class name="adminTC.TC001"></class>
+		</classes>
+	</test>
+</suite>

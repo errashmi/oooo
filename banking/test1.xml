@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PrimusBank_admin">
+	<test name="test1">
+		<classes>
+			<class name="adminTC.TC001"></class>
+		</classes>
+	</test>
+</suite>

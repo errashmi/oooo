@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_name]">
+  <test thread-count="5" name="multiBrowsertesting(failed)">
+    <classes>
+      <class name="com.rex.U.U7">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.rex.U.U7 -->
+    </classes>
+  </test> <!-- multiBrowsertesting(failed) -->
+</suite> <!-- Failed suite [Suite_name] -->

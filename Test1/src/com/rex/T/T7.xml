@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite-1" parallel="classes">
+<test name="test-1">
+<classes>
+<class name="com.rex.T.T6"></class>
+<class name="com.rex.T.T7"></class>
+</classes>
+</test>
+</suite>

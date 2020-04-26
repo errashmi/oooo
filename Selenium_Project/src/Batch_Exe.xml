@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Batch execution demo">
+	<test name="HMS">
+		<classes>
+			<class name="com.rashmi.TestNG.HMS_Login">
+				<methods>
+					<include name="verify_login"></include>
+					<include name="verify_loout"></include>
+				</methods>
+			</class>
+			<class name="com.rashmi.TestNG.Deafult_Currency">
+
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parameter_passing">
+<test name="parameter_passing By method">
+<classes>
+
+<class name="com.rashmi.practice.ParameterPassingMech">
+<methods>
+<include name="parameterPassingByMethod"></include>
+<parameter name="uname" value="khl2529"></parameter>
+<parameter name="pwd" value="1234"></parameter>
+<include name="parameterPassingUsingXML"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [paralleltestingdemo]">
+  <test thread-count="5" name="MultiBrowserTestingParallely(failed)">
+    <classes>
+      <class name="data.D1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- data.D1 -->
+    </classes>
+  </test> <!-- MultiBrowserTestingParallely(failed) -->
+</suite> <!-- Failed suite [paralleltestingdemo] -->
